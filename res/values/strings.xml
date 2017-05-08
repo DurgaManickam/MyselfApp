@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Myself</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_bankeditactivity">Bankeditactivity</string>
+    <string name="title_activity_bankviewactivity">Bankviewactivity</string>
+    <string name="title_activity_biodataeditctivity">Biodataeditctivity</string>
+    <string name="title_activity_biodataviewctivity">Biodataviewctivity</string>
+    <string name="title_activity_educationviewctivity">Educationviewctivity</string>
+    <string name="title_activity_educationeditctivity">Educationeditctivity</string>
+    <string name="title_activity_insuranceeditactivity">Insuranceeditactivity</string>
+    <string name="title_activity_insuranceviewactivity">Insuranceviewactivity</string>
+    <string name="title_activity_medicaleditactivity">Medicaleditactivity</string>
+    <string name="title_activity_medicalviewactivity">Medicalviewactivity</string>
+    <string name="title_activity_taxeditactivity">Taxeditactivity</string>
+    <string name="title_activity_taxviewactivity">Taxviewactivity</string>
+    <string name="title_activity_educationeditactivity">Educationeditactivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_vehicleeditactivity">Vehicleeditactivity</string>
+    <string name="title_activity_vehicleview">VehicleviewActivity</string>
+    <string name="title_activity_vehicleviewactivity">Vehicleviewactivity</string>
+    <string name="title_activity_walleteditactivity">Walleteditactivity</string>
+    <string name="title_activity_walletviewactivity">Walletviewactivity</string>
+    <string name="title_activity_educationviewactivity">Educationviewactivity</string>
+    <string name="title_activity_biodataviewactivity">Biodataviewactivity</string>
+    <string name="title_activity_biodataeditactivity">Biodataeditactivity</string>
+    <string name="title_activity_variable">Variable</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.myself2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+     <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+     
+     <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+     
+    
+     <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Sherlock.__Theme.DarkActionBar" >
+                <activity
+            android:name="com.project.myself2.Splashscreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        		<activity android:name=".Mainactivity"></activity>
+        		<activity android:name=".MyCalendarActivity"></activity>
+                <activity android:name="com.project.myself2.Bankeditactivity"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Bankviewactivity"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Biodataeditactivity"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Biodataviewactivity"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Educationeditactivity"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Educationviewactivity"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Insuranceeditactivity"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Insuranceviewactivity"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Medicaleditactivity"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Medicalviewactivity"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.SideItemList1"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Variable"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Taxeditactivity"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Taxviewactivity"
+                    android:noHistory="true"></activity>
+				<activity android:name="com.project.myself2.Vehicleeditactivity"
+				    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Vehicleviewactivity"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Walleteditactivity"
+                    android:noHistory="true"></activity>
+                <activity android:name="com.project.myself2.Walletviewactivity"
+                    android:noHistory="true"></activity>     
+               
+                      
+           </application>
+
+</manifest>

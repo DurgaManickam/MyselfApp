@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left" >
+
+    <TextView
+        android:id="@+id/sidelisttext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/item_icon"
+        android:layout_marginLeft="60dp"
+        android:maxLines="2"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:scrollHorizontally="false"
+        android:text="Development Team categories"
+        android:textColor="#FFFFFF"
+        android:width="250dp" />
+
+  <ImageView
+      android:id="@+id/item_icon"
+      android:layout_width="wrap_content"
+      android:layout_height="50dp"
+      android:layout_alignParentLeft="true"
+      android:paddingBottom="10dp"
+      android:paddingLeft="10dp"
+      android:paddingTop="10dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/item_icon"
+        android:background="#3c3c3c" />
+
+</RelativeLayout>
